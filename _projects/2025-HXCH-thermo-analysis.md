@@ -1,8 +1,8 @@
 ---
-
-Title: Heat Exchanger Analysis
-Description: Thermodynamics Portfolio Project 
-Image: /assets/images/radio-machine-cad.jpg
+layout: project
+title: Thermodynamics Project
+description: Heat Exchanger Analysis
+image: /assets/images/function-graph.png
 ---
 
 Heat exchangers are widely used in real-world applications to control temperature for efficiency and safety. They are part of power generation, heating and cooling, and industrial processes and enable the transfer of thermal energy between fluids at different temperatures without direct mixing. In this project, a heat exchanger was run in different modes and analyzed experimentally to evaluate its thermal performance and to assess the validity of common thermodynamic assumptions, including steady-state and adiabatic operation.
