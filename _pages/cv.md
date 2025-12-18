@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Elaine Wang - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
@@ -8,30 +8,29 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [ew536@cornell.edu](mailto:ew536@cornell.edu) | | | **Phone:** +516 406 0754
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
-
+Dedicated engineering student with strong communication and analytical skills seeking professional opportunities. 
 ---
 
 #### Education
 - **Cornell University**  
-  *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  *Bachelor of Science in Mechanical Engineering*  
+  Graduation: May, 2028
 
-- **[High School Name]**  
+- **[Garden City High School]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [June, 2024]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
+- **Software:** Autodesk Fusion 360, ..
 - **Programming:** Python, MATLAB  
-- **Tools:** 3D Printing, Laser Cutting  
+- **Tools:** 
 
 ---
 
