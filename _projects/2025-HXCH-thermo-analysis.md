@@ -2,13 +2,13 @@
 layout: project
 title: Thermofluid System Analysis
 description: Heat Exchanger Analysis
-image: /assets/images/heatEXCHgoogle.png
+image: /assets/images/heatEXCHgoogle.jpg
 ---
 Heat exchangers are widely used in real-world applications to control temperature for efficiency and safety. They are part of power generation, heating and cooling, and industrial processes and enable the transfer of thermal energy between fluids at different temperatures without direct mixing. In this project, a heat exchanger was run in different modes and analyzed experimentally to evaluate its thermal performance and to assess the validity of common thermodynamic assumptions, including steady-state and adiabatic operation.
 
 ## Setup
 A lightly-guided, hands-on experimental setup was provided, consisting of a heat exchanger connected to four water buckets driven by pumps. Temperature measurements were taken from the water buckets. 
-![Photo of setup]({{ "/assets/images/hxch-setup.jpg" | relative_url }}){: .setup-image }
+![Photo of setup]({{ "/assets/images/hxch-setup.jpg" | relative_url }}){: .setup-image style="width: 500px"}
 
 Supplies used:  
 • one heat exchanger  
@@ -21,9 +21,9 @@ Supplies used:
 • one thermocouple  
 • four thermometers  
 • food dye (for visually distinguishing flow)  
-  A cross section of the heat exchanger used is provided below; metal plates conduct heat between the parallel pipes.
+  A cross section of the heat exchanger used is provided below; metal plates conduct heat between the parallel pipes.  
   
-![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .block-image }
+![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .block-image style="width: 800px"}
 
 ## Analysis
 Typically, several assumptions that do not reflect reality are made to simplify thermodynamic analysis. The system, defined as the volume within the heat exchanger, is ideally an adiabatic control volume, with all heat lost by the hot fluid transferred to the cold fluid. However, because the heat exchanger has internal thermal resistance, some of the heat is transferred to the heat exchanger itself. 
