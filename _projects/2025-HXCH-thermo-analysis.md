@@ -28,10 +28,10 @@ Supplies used:
 
 ## Analysis
 Typically, several assumptions that do not reflect reality are made to simplify thermodynamic analysis. The system, defined as the volume within the heat exchanger, is ideally an adiabatic control volume, with all heat lost by the hot fluid transferred to the cold fluid. However, because the heat exchanger has internal thermal resistance, some of the heat is transferred to the heat exchanger itself. 
-Additionally, the actual system is not truly at steady-state, which requires constant inlet and outlet temperatures, mass flow rate, and heat transfer rate. During startup and shutdown, the system is not at steady-state. Inlet and outlet temperatures are not constant because the water buckets were open to the air; the hot water source loses heat to the environment, and the cold water source gains heat.    
+Additionally, the actual system is not truly at steady-state, which requires constant inlet and outlet temperatures, mass flow rate, and heat transfer rate. During startup and shutdown, the system is not at steady-state. Mass flow rate increases for a short time during startup and decreases during shutdown as the pumps turn on and off. Inlet and outlet temperatures are not constant because the water buckets were open to the air; the hot water source loses heat to the environment, and the cold water source gains heat. Better insulation, cleaner startup/shutdown, and longer run time (to minimize the proportion of operation time spent during startup/shutdown) could bring this system closer to steady-state operation.       
   
-The heat exchanger was set up in parallel and in counterflow.  Note that "0" and "f" subscript denote initial and final conditions of the fluid, "i" and "f" denote "inlet" and "exit", and "CV" denotes "control volume".  Control-volume steady-state operation is assumed:   
-![First Law]({{ "/assets/images/hxch-first-law.png" | relative_url }}){: .setup-image style="width: 600px"}  
+The heat exchanger was set up in parallel and in counterflow.  Note that "0" and "f" subscript denote initial and final conditions of the fluid, "i" and "f" denote "inlet" and "exit", and "CV" denotes "control volume".  Control-volume steady-state operation is assumed for ease of analysis:   
+![First Law]({{ "/assets/images/hxch-first-law.png" | relative_url }}){: .setup-image style="width: 600px"}   
 **In parallel:**
 ![Analysis in Parallel]({{ "/assets/images/hxch-parallel.jpg" | relative_url }}){: .setup-image style="width: 700px"}
 
@@ -40,7 +40,7 @@ The negative Q'CV indicates loss of heat to the environment and therefore non-ad
 **In counterflow:**  
 ![Analysis in Parallel]({{ "/assets/images/hxch-cf.jpg" | relative_url }}){: .setup-image style="width: 700px"}
   The counterflow setup results in lower heat loss to the environment and lower entropy generation because it maintains a lower average wall temperature relative to surroundings. During parallel operation, the 2,4 side was hotter to the touch than the 1,3 side, but during counterflow operation the whole exchanger was at relatively uniform temperature, as seen to the right. ![Counterflow Temperatures]({{ "/assets/images/hxch-cf-temp.png" | relative_url }}){: .inline-image-r style="width: 200px"}    
-  By avoiding hot spots like those seen in parallel flow, counterflow keeps the average wall temperature closer to the cold-side temperatures, so less heat leaks to the surroundings and more is transferred efficiently between the fluids.
+  By avoiding hot spots like those seen in parallel flow, counterflow keeps the average wall temperature closer to the cold-side temperatures, so less heat leaks to the surroundings and more is transferred efficiently between the fluids. Counterflow systems are used more often in real life applications for this property, and 
 
     
 
