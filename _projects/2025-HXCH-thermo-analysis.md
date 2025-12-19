@@ -40,7 +40,7 @@ The negative Q'CV indicates loss of heat to the environment and therefore non-ad
 **In counterflow:**  
 ![Analysis in Parallel]({{ "/assets/images/hxch-cf.jpg" | relative_url }}){: .setup-image style="width: 700px"}
   The counterflow setup results in lower heat loss to the environment and lower entropy generation because it maintains a lower average wall temperature relative to surroundings. During parallel operation, the 2,4 side was hotter to the touch than the 1,3 side, but during counterflow operation the whole exchanger was at relatively uniform temperature, as seen to the right. ![Counterflow Temperatures]({{ "/assets/images/hxch-cf-temp.png" | relative_url }}){: .inline-image-r style="width: 200px"}    
-  By avoiding hot spots like those seen in parallel flow, counterflow keeps the average wall temperature closer to the cold-side temperatures, so less heat leaks to the surroundings and more is transferred efficiently between the fluids. Counterflow systems are used more often in real life applications for this property, and 
+  By avoiding hot spots like those seen in parallel flow, counterflow keeps the average wall temperature closer to the cold-side temperatures, so less heat leaks to the surroundings and more is transferred efficiently between the fluids. Counterflow systems are used more often in real life applications for this property.
 
     
 
