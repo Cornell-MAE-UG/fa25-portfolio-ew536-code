@@ -2,6 +2,7 @@
 layout: project
 title: Thermofluid System Analysis
 description: Heat Exchanger Analysis
+technologies: []
 image: /assets/images/heatEXCHgoogle.jpg
 ---
 Heat exchangers are widely used in real-world applications to control temperature for efficiency and safety. They are part of power generation, heating and cooling, and industrial processes and enable the transfer of thermal energy between fluids at different temperatures without direct mixing. In this project, a heat exchanger was run in different modes and analyzed experimentally to evaluate its thermal performance and to assess the validity of common thermodynamic assumptions, including steady-state and adiabatic operation.
