@@ -23,14 +23,14 @@ Supplies used:
 • food dye (for visually distinguishing flow)  
   A cross section of the heat exchanger used is provided below; metal plates conduct heat between the parallel pipes.  
   
-![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .setup-image style="width: 400px"}
+![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .setup-image style="width: 200px"}
 
 ## Analysis
 Typically, several assumptions that do not reflect reality are made to simplify thermodynamic analysis. The system, defined as the volume within the heat exchanger, is ideally an adiabatic control volume, with all heat lost by the hot fluid transferred to the cold fluid. However, because the heat exchanger has internal thermal resistance, some of the heat is transferred to the heat exchanger itself. 
 Additionally, the actual system is not truly at steady-state, which requires constant inlet and outlet temperatures, mass flow rate, and heat transfer rate. During startup and shutdown, the system is not at steady-state. Inlet and outlet temperatures are not constant because the water buckets were open to the air; the hot water source loses heat to the environment, and the cold water source gains heat.    
   
 The heat exchanger was set up in parallel and in counterflow.  Note that "0" and "f" subscript denote initial and final conditions of the fluid, "i" and "f" denote "inlet" and "exit", and "CV" denotes "control volume".  Control-volume steady-state operation is assumed:   
-![First Law]({{ "/assets/images/hxch-first-law.png" | relative_url }}){: .setup-image style="width: 700px"}  
+![First Law]({{ "/assets/images/hxch-first-law.png" | relative_url }}){: .setup-image style="width: 600px"}  
 **In parallel:**
 ![Analysis in Parallel]({{ "/assets/images/hxch-parallel.jpg" | relative_url }}){: .setup-image style="width: 700px"}
 
