@@ -23,7 +23,7 @@ Supplies used:
 • food dye (for visually distinguishing flow)  
   A cross section of the heat exchanger used is provided below; metal plates conduct heat between the parallel pipes.  
   
-![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .block-image style="width: 800px"}
+![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .setup-image style="width: 500px"}
 
 ## Analysis
 Typically, several assumptions that do not reflect reality are made to simplify thermodynamic analysis. The system, defined as the volume within the heat exchanger, is ideally an adiabatic control volume, with all heat lost by the hot fluid transferred to the cold fluid. However, because the heat exchanger has internal thermal resistance, some of the heat is transferred to the heat exchanger itself. 
@@ -31,7 +31,7 @@ Additionally, the actual system is not truly at steady-state, which requires con
   
 The heat exchanger was set up in parallel and in counterflow.  Note that "0" and "f" subscript denote initial and final conditions of the fluid, "i" and "f" denote "inlet" and "exit", and "CV" denotes "control volume".  Control-volume steady-state operation is assumed:
 **In parallel:**
-![Analysis in Parallel]({{ "/assets/images/hxch-parallel.jpg" | relative_url }}){: .wide-image }
+![Analysis in Parallel]({{ "/assets/images/hxch-parallel.jpg" | relative_url }}){: .setup-image style="width: 500px"}
 
 The negative Q'CV indicates loss of heat to the environment and therefore non-adiabatic operation. Entropy generation is more negative in the non-adiabatic case (with Q'/T term) under the steady state assumption because some entropy is carried out of the system as heat dissipated into the exchanger.
 
