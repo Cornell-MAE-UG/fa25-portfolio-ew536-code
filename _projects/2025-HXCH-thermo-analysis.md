@@ -36,8 +36,12 @@ The heat exchanger was set up in parallel and in counterflow.  Note that "0" and
 
 The negative Q'CV indicates loss of heat to the environment and therefore non-adiabatic operation. Entropy generation is more negative in the non-adiabatic case (with Q'/T term) under the steady state assumption because some entropy is carried out of the system as heat dissipated into the exchanger.
 
-**In counterflow:**
+**In counterflow:**  
+![Analysis in Parallel]({{ "/assets/images/hxch-cf.jpg" | relative_url }}){: .setup-image style="width: 700px"}
+  The counterflow setup results in lower heat loss to the environment and lower entropy generation because it maintains a lower average wall temperature relative to surroundings. During parallel operation, the 2,4 side was hotter to the touch than the 1,3 side, but during counterflow operation the whole exchanger was at relatively uniform temperature: ![Counterflow Temperatures]({{ "/assets/images/hxch-cf-temp.png" | relative_url }}){: .inline-image-r style="width: 200px"}
+  By avoiding hot spots like those seen in parallel flow, counterflow keeps the average wall temperature closer to the cold-side temperatures, so less heat leaks to the surroundings and more is transferred efficiently between the fluids.
 
+    
 ![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
 
 ![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
