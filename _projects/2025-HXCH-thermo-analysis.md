@@ -8,7 +8,8 @@ Heat exchangers are widely used in real-world applications to control temperatur
 
 ## Setup
 A lightly-guided, hands-on experimental setup was provided, consisting of a heat exchanger connected to four water buckets driven by pumps. Temperature measurements were taken from the water buckets. 
-![Photo of setup]({{ "/assets/images/hxch-setup.jpg" | relative_url }}){: .inline-image-l style ="width:300px"} 
+![Photo of setup]({{ "/assets/images/hxch-setup.jpg" | relative_url }}){: .setup-image }
+
 Supplies used:  
 • one heat exchanger  
 • two water pumps  
@@ -22,14 +23,15 @@ Supplies used:
 • food dye (for visually distinguishing flow)  
   A cross section of the heat exchanger used is provided below; metal plates conduct heat between the parallel pipes.
   
-![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .inline-image-l style ="width:200px"}
+![Photo of heat exchanger]({{ "/assets/images/hxch-cross-section.jpg" | relative_url }}){: .block-image }
+
 ## Analysis
 Typically, several assumptions that do not reflect reality are made to simplify thermodynamic analysis. The system, defined as the volume within the heat exchanger, is ideally an adiabatic control volume, with all heat lost by the hot fluid transferred to the cold fluid. However, because the heat exchanger has internal thermal resistance, some of the heat is transferred to the heat exchanger itself. 
 Additionally, the actual system is not truly at steady-state, which requires constant inlet and outlet temperatures, mass flow rate, and heat transfer rate. During startup and shutdown, the system is not at steady-state. Inlet and outlet temperatures are not constant because the water buckets were open to the air; the hot water source loses heat to the environment, and the cold water source gains heat.    
   
 The heat exchanger was set up in parallel and in counterflow.  Note that "0" and "f" subscript denote initial and final conditions of the fluid, "i" and "f" denote "inlet" and "exit", and "CV" denotes "control volume".  Control-volume steady-state operation is assumed:
 **In parallel:**
-![Analysis in Parallel]({{ "/assets/images/hxch-parallel.jpg" | relative_url }}){: .inline-image-l}
+![Analysis in Parallel]({{ "/assets/images/hxch-parallel.jpg" | relative_url }}){: .wide-image }
 
 The negative Q'CV indicates loss of heat to the environment and therefore non-adiabatic operation. Entropy generation is more negative in the non-adiabatic case (with Q'/T term) under the steady state assumption because some entropy is carried out of the system as heat dissipated into the exchanger.
 
