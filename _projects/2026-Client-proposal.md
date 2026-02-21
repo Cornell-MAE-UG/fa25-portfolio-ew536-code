@@ -68,9 +68,6 @@ Focus on questions they can answer from lived experience.
 \newpage
 
 
-# Optional page 2 — References and/or one figure
-
-
 
 
 ## References
