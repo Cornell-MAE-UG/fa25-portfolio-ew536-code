@@ -2,7 +2,7 @@
 layout: project
 title: MAE 2250 SLF Removal Apparatus
 description: Pre-Harvesting Apparatus
-technologies: []
+technologies: [CAD, Vertical Bandsaw, Drill, Saw, 3D Printing]
 image:
 ---
 
@@ -83,7 +83,7 @@ This product will allow grape farmers to solve the issue of SLF within harvested
 ![Design Sketch]({{ "/assets/images/2250drawing.png" | relative_url }}){: .setup-image style="width: 500px"}
 
 ### Component List
-![Design Sketch]({{ "/assets/images/2250list.png" | relative_url }}){: .setup-image style="width: 500px"}
+![Component List]({{ "/assets/images/2250list.png" | relative_url }}){: .setup-image style="width: 500px"}
 
 
 ### Assembly Instructions
