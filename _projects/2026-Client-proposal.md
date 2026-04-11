@@ -6,7 +6,12 @@ technologies: []
 image:
 ---
 
-# Pre-Harvesting Apparatus Client Proposal
+## Table of Contents
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
+
+
+## Client Pitch
 **Team:** The Entomophiles
 **Client(s):** Cornell CALS Extension/E&J Gallo Winery/National Grape  
  
@@ -68,5 +73,69 @@ This product will allow grape farmers to solve the issue of SLF within harvested
    *Decision affected:* If not, air requires onboard compression and water requires onboard storage, increasing weight.
 
 
+
+## Functional Prototype
+### Assembly Instructions
+
+1. **Assemble main frame**
+   - Fit metal rods into printed corner joints tightly.
+   - Orient four shorter rods vertically for a balanced structure.
+
+2. **Assemble pipe structure**
+   - Connect four T-connectors horizontally in a straight line using 1¾” pieces between each connector and at both ends.
+   - Place an end cap on one end.
+   - On each T-connector, attach foot-long PVC pipes with drilled holes arranged in an alternating offset pattern.
+   - Place end caps at the end of each pipe.
+
+3. **Hose connection**
+   - Use 1” schedule 40 PVC to connect threaded barbed hose connectors to the ¾” PVC.
+   - Attach a hose between the barbed connectors.
+   - (Future plan: connect hose to a reservoir with a valve.)
+
+4. **Attach to frame**
+   - Secure the pipe structure to the frame using zip ties (temporary).
+   - Where necessary, combine multiple zip ties for additional length.
+
+---
+
+### Design Testing
+
+Water was poured into the hose multiple times while the structure was placed above two bins to collect runoff.
+
+#### Leakage Test
+- **Purpose:** Check for unintended water leakage and connection integrity.
+- **Result:** Minor dripping observed at threaded PVC-to-barbed connector joint.
+- **Conclusion:** Teflon tape or better sealing at threaded connections could reduce leakage.
+
+#### Saturation Test
+- **Setup:** Absorbent cloth placed beneath prototype.
+- **Purpose:** Evaluate effectiveness of “checkerboard” hole distribution.
+- **Result:** Cloth fully soaked.
+- **Conclusion:** Saturation is effective; future improvements may include nozzles to improve distribution and reduce plant damage.
+
+#### Flow Rate Test
+- **Method:** Measured 1000 mL of water poured at a steady rate.
+- **Result:** Fully drained in 58.07 seconds.
+- **Conclusion:** Water flows efficiently with no major blockages.
+
+---
+
+### Success Criteria
+
+- **Target flow rate:** 16 mL/sec  
+  - Ensures sufficient force to remove SLF without damaging grapes  
+  - **Achieved:** 17.2 mL/sec (1000 mL in 58.07 sec)  
+  - **Conclusion:** Flow is efficient; future optimization may reduce water usage while maintaining coverage  
+
+- **Structural stability**
+  - Minimal frame deflection when supported from one end  
+  - **Achieved:** Frame remained stable and sturdy on bin edges  
+
+- **Coverage requirement**
+  - Open center for vines to pass through  
+  - At least 75% saturation of the 0.75 sq ft area within 30 seconds  
+  - **Achieved:** Cloth test confirmed full coverage  
+
+---
 
 
