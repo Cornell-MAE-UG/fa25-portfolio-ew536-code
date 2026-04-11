@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Client Outline and Pitch
+title: MAE 2250 SLF Removal Apparatus
 description: Pre-Harvesting Apparatus
 technologies: []
 image:
@@ -77,65 +77,47 @@ This product will allow grape farmers to solve the issue of SLF within harvested
 ## Functional Prototype
 ### Assembly Instructions
 
-1. **Assemble main frame**
-   - Fit metal rods into printed corner joints tightly.
-   - Orient four shorter rods vertically for a balanced structure.
+1. Assemble main frame  
+   a. Fit metal rods into printed corner joints tightly. Orient 4 shorter rods vertically for balanced structure.  
 
-2. **Assemble pipe structure**
-   - Connect four T-connectors horizontally in a straight line using 1¾” pieces between each connector and at both ends.
-   - Place an end cap on one end.
-   - On each T-connector, attach foot-long PVC pipes with drilled holes arranged in an alternating offset pattern.
-   - Place end caps at the end of each pipe.
-
-3. **Hose connection**
-   - Use 1” schedule 40 PVC to connect threaded barbed hose connectors to the ¾” PVC.
-   - Attach a hose between the barbed connectors.
-   - (Future plan: connect hose to a reservoir with a valve.)
-
-4. **Attach to frame**
-   - Secure the pipe structure to the frame using zip ties (temporary).
-   - Where necessary, combine multiple zip ties for additional length.
+2. Assemble pipe structure  
+   a. Connect four T-connectors(horizontally) in a straight line with 1¾” pieces in between each connector and 1¾” pieces at the ends as well. Place an end cap on one end.  
+   b. On each T- connector, connect the foot-long pvc pipes, with drilled holes alternating in offset. Place end caps at the end of each pipe.  
+   c. Hose - Used 1” schedule 40 PVC to connect threaded barbed hose connectors to the ¾” PVC. We plan on using the other side of the hose to connect to our reservoir with a valve in the future. The hose was attached between these barbed connectors  
+   d. Attach pipe structure to frame with zip-ties (temporary). Where necessary, tie two zip-ties together for increased length.  
 
 ---
 
-### Design Testing
+### Design Test
 
-Water was poured into the hose multiple times while the structure was placed above two bins to collect runoff.
+Poured water into the hose of the prototype several times. Placed structure above two bins to collect water.  
 
-#### Leakage Test
-- **Purpose:** Check for unintended water leakage and connection integrity.
-- **Result:** Minor dripping observed at threaded PVC-to-barbed connector joint.
-- **Conclusion:** Teflon tape or better sealing at threaded connections could reduce leakage.
+- Visually inspected for unintended water leakages.  
+- Part it’s testing: Testing security of connections, whether significant design changes are necessary for the parts conducting water.  
+- Results: Noticed small dripping leakage at threaded connection between PVC pipe and barbed hose connector  
+- Conclusion: Tapping the PVC pipe at the connection could reduce leakage.  
 
-#### Saturation Test
-- **Setup:** Absorbent cloth placed beneath prototype.
-- **Purpose:** Evaluate effectiveness of “checkerboard” hole distribution.
-- **Result:** Cloth fully soaked.
-- **Conclusion:** Saturation is effective; future improvements may include nozzles to improve distribution and reduce plant damage.
+- Placed absorbent cloth in the bin under the prototype.  
+- Part it’s testing: Whether the “checkerboard” distribution of holes and pipes is sufficient to ensure good saturation of the area within the frame.  
+- Results: Cloth was fully soaked.  
+- Conclusion: Good saturation is achieved. However, it may be a future consideration to implement nozzles or other to further improve saturated area and reduce damage to plants caused by a direct dripping flow.  
 
-#### Flow Rate Test
-- **Method:** Measured 1000 mL of water poured at a steady rate.
-- **Result:** Fully drained in 58.07 seconds.
-- **Conclusion:** Water flows efficiently with no major blockages.
+- Measured 1000mL of water, poured into the hose at a steady rate. Time to fully drain was recorded.  
+- Part it’s testing: Hose and piping carrying water, and whether there are significant blockages.  
+- Results: Expended 1000mL in 58.07 sec.  
+- Conclusion: Water flows well. Existing connections and methods of processing piping are good in this regard.  
 
 ---
 
 ### Success Criteria
 
-- **Target flow rate:** 16 mL/sec  
-  - Ensures sufficient force to remove SLF without damaging grapes  
-  - **Achieved:** 17.2 mL/sec (1000 mL in 58.07 sec)  
-  - **Conclusion:** Flow is efficient; future optimization may reduce water usage while maintaining coverage  
+- 16 mL/sec water flow rate- expends the small scale jug in about 4 minutes. Sufficient water flow is important to knock SLF off, but excessive flow is harmful (can wash away grapes).  
+- Goal achieved: Expends 1000mL in 58.07 sec, which is a flow rate of 17.2 mL/sec. Therefore, we know water flows efficiently through the piping. However, we believe that with improved nozzles, we can retain full saturation with less flow, thus increasing efficiency with respect to the amount of water consumed.  
 
-- **Structural stability**
-  - Minimal frame deflection when supported from one end  
-  - **Achieved:** Frame remained stable and sturdy on bin edges  
+- Minimal frame deflection when only supported from one end. A sturdy, stable structure is necessary for repeated use.  
+- Goal achieved: Frame is sturdy and stands stable on the edges of a plastic bin.  
 
-- **Coverage requirement**
-  - Open center for vines to pass through  
-  - At least 75% saturation of the 0.75 sq ft area within 30 seconds  
-  - **Achieved:** Cloth test confirmed full coverage  
-
----
+- Open center for grape vines to pass through, and water saturates at least 75% of the surface area directly below the frame (0.75 square feet) within 30 seconds. Water should be spread around evenly within the frame such that no areas potentially containing SLF are missed.  
+- Goal achieved: Placed absorbent cloth in bin under the prototype to test the surface area that the water reaches; cloth was fully soaked.  
 
 
