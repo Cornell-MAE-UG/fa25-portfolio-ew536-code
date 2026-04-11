@@ -10,6 +10,7 @@ image:
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
 
+---
 
 ## Client Pitch
 **Team:** The Entomophiles
@@ -22,6 +23,7 @@ Spotted lanternflies (SLF) infest grapevines, contaminating harvests. We aim to 
 ## Impact
 This product will allow grape farmers to solve the issue of SLF within harvested crops, allowing for more loads to be accepted alongside large-scale removal operations.  
 
+---
 
 ## Proposed direction(s): Pre-Harvest Processing
 
@@ -45,13 +47,14 @@ This product will allow grape farmers to solve the issue of SLF within harvested
 
 **End-of-semester proof-of-concept:** A battery-powered miniature prototype will use air and/or water (directed or undirected) to remove simulated SLF (miniature suction cups) from a simulated or real grape vine, supplied by a water tank.
 
+---
 
 ## Key risks/unknowns
 
 - SLF removal may dislodge grapes or damage vines, reducing yield and future harvests; this can be tested using simulated SLF on real vines with fruit.
 - Fluid use may oversaturate soil or contaminate crops; non-water chemicals could affect grape quality or food safety. We would use soil-safe fluids and minimize volume.
 
-
+---
 
 ## Questions for the client
 
@@ -75,6 +78,14 @@ This product will allow grape farmers to solve the issue of SLF within harvested
 
 
 ## Functional Prototype
+
+### Design Sketch
+![Design Sketch]({{ "/assets/images/2250drawing.png" | relative_url }}){: .setup-image style="width: 500px"}
+
+### Component List
+![Design Sketch]({{ "/assets/images/2250list.png" | relative_url }}){: .setup-image style="width: 500px"}
+
+
 ### Assembly Instructions
 
 1. Assemble main frame  
