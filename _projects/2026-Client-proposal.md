@@ -9,6 +9,11 @@ image:
 ## Table of Contents
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
+- [Client Report](#client-report)
+
+---
+Spotted lanternflies (SLF) infest grapevines, contaminating harvests and damaging vineyards that are critical to local economies in regions such as New York. Within this broader challenge, this work targets the specific, high-impact sub-problem of removal of SLF immediately prior to harvest, when insects attached to vines are likely to be collected with grape clusters and directly contaminate the product. This focus enables large short-term gains without requiring full population control.
+At harvest, grapes are extremely delicate and easily damaged or dislodged, while SLF exhibit strong adhesion to surfaces, requiring substantial but carefully controlled force for removal. With chemical and biological methods still uncertain and difficult to scale, a kinetic alternative is necessary. The proposed solution integrates directly with existing harvesting equipment, avoids disruption to workflows or costly vineyard-wide deployment, scales easily, and targets the SLF population most immediately affecting yield. 
 
 ---
 
@@ -129,6 +134,14 @@ Poured water into the hose of the prototype several times. Placed structure abov
 - Goal achieved: Frame is sturdy and stands stable on the edges of a plastic bin.  
 
 - Open center for grape vines to pass through, and water saturates at least 75% of the surface area directly below the frame (0.75 square feet) within 30 seconds. Water should be spread around evenly within the frame such that no areas potentially containing SLF are missed.  
-- Goal achieved: Placed absorbent cloth in bin under the prototype to test the surface area that the water reaches; cloth was fully soaked.  
+- Goal achieved: Placed absorbent cloth in bin under the prototype to test the surface area that the water reaches; cloth was fully soaked.
+
+
+
+## Client Report
+
+### Images of Final Prototype 
+
+
 
 
