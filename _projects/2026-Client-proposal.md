@@ -140,7 +140,8 @@ Poured water into the hose of the prototype several times. Placed structure abov
 
 ## Client Report
 
-### Images of Final Prototype 
+### Final Prototype 
+![Photo of final prototype and mockup]({{ "/assets/images/IMG_8823.jpg" | relative_url }}){: .setup-image style="width: 500px"}
 
 
 ### Final Prototype and Application
